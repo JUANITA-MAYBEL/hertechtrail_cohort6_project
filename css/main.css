@@ -429,7 +429,7 @@ img.pull-left {
 	display: none;
 }
 .pace .pace-progress {
-	background: gold;
+	background: darkred;
 	position: fixed;
 	z-index: 900;
 	top: 0;
@@ -472,7 +472,7 @@ img.pull-left {
 	border-top: 11px solid rgba(255, 255, 255, 0.1);
 	border-right: 11px solid rgba(255, 255, 255, 0.1);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-	border-left: 11px solid #FF0077;
+	border-left: 11px solid #8b0000;
 	-webkit-animation: load 1.1s infinite linear;
 	animation: load 1.1s infinite linear;
 	display: block;
@@ -1294,7 +1294,6 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-background\ \(3\).jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1304,7 +1303,13 @@ header .logo a {
 	min-height: 720px;
 	display: table;
 	position: relative;
-	text-align: center;
+	text-align: left;
+}
+ #intro .about-img {
+	margin-left: 0;
+	right: 60px;
+	float: right;
+	position: relative;
 }
 .intro-overlay {
 	position: absolute;
@@ -1416,7 +1421,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: darkred;
 }
 
 /**
@@ -1490,12 +1495,13 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background: darkred;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
-#about .section-intro {
+#about .section-intro h1 {
 	margin-bottom: 3rem;
+	color: #000;
 }
 
 .intro-info {
@@ -1513,6 +1519,7 @@ header .logo a {
 .intro-info .lead {
 	text-align: left;
 	padding-left: 13rem;
+	color: white;
 }
 
 .about-content {
@@ -1526,7 +1533,12 @@ header .logo a {
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
+	color: #000;
 }
+.about-content p {
+color: whitesmoke;
+}
+
 .about-content .info-list {
 	list-style: none;
 	margin-left: 0;
@@ -1534,10 +1546,11 @@ header .logo a {
 .about-content .info-list li {
 	padding: 0 0 1.5rem 0;
 	margin-bottom: .6rem;
+	color: #000;
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #000;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1546,12 +1559,13 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #FFFFFF;
 	font-size: 1.5rem;
 	line-height: 1;
 }
 .about-content .skill-bars {
 	margin-top: 6rem;
+	color: #000;
 }
 
 .button-section {

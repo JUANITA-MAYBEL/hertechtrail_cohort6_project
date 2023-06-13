@@ -1474,24 +1474,21 @@ header .logo a {
 	
 }
 .intro-info {
-	margin-top: 4.2rem;
-	margin-right: -30px;
-	margin-left: -30px;
+	margin-top: 4.0rem;
+	margin-right: -20px;
+	margin-left: 0px;
 }
 .intro-info img {
-	height: 14rem;
-	width: 14rem;
+	height: 12rem;
+	width: 12rem;
 	border-radius: 50%;
-	margin: .7rem 0 7rem 0;
+	margin: .9rem 0 9rem 0;
 	float: left;
 }
-.intro-info .lead {
-	text-align: left;
-	padding-left: 13rem;
+.intro-info .lead1 {
+	text-align: center;
 	color: black;
-	box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #0000ff;
-	padding: 40px;
-	;
+	margin-left: 0;
 
 }
 
@@ -1629,13 +1626,30 @@ padding:40px;
 }
 
 #portfolio h1{
-color: #000;
+color: #0000ff;
+}
+#portfolio h5 {
+	color: #0000ff;
 }
 
+.section-intro {
+	display: grid;
+	border-radius: 20px;
+	box-sizing: border-box;
+	box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #0000ff;
+}
+
+.portfolio-content{
+	box-sizing: border-box;
+	box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #0000ff;
+	border: #0000ff;
+	border-radius: 18px;
+}
 #portfolio .folio-item {
-	padding: 0;
+	padding: 7px;
 	position: relative;
 	overflow: hidden;
+	padding-bottom: 0
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
@@ -1794,7 +1808,7 @@ color: #000;
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
 .popup-modal .link-box a:hover {
-	background: gold;
+	background: blue;
 	border: none;
 }
 @media only screen and (max-width:600px) {
@@ -1958,6 +1972,7 @@ color: #000;
 	border-radius: 25px;
 	box-sizing: border-box;
 	box-shadow:  -14px 20px #eee5e5;
+	align-items: center;
 }
 
 .grid-item {
@@ -1968,12 +1983,7 @@ color: #000;
   }
 
 /* contact form */
-.contact-form {
-	max-width: 740px;
-	border-radius: 50px;
-  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #0000ff;
 
-}
 
 .contact-form ::-webkit-input-placeholder {
 	color: #8181e9;
@@ -2199,7 +2209,7 @@ color: #000;
  */
 footer {
 	padding-bottom: 3rem;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	font-family: "poppins-regular", sans-serif;
 	background-color: #0000ff;
 }

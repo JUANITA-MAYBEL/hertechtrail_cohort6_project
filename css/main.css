@@ -1464,9 +1464,16 @@ header .logo a {
 	padding-bottom: 15rem;
 }
 #about .section-intro h1 {
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 	color: #0000ff;
 	
+}
+
+#about .section-intro {
+	box-sizing: border-box;
+	box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #0000ff;
+	text-align: center;
+	justify-content: center;
 }
  
 #about .section-intro h5{
@@ -1477,6 +1484,7 @@ header .logo a {
 	margin-top: 4.0rem;
 	margin-right: -20px;
 	margin-left: 0px;
+	
 }
 .intro-info img {
 	height: 12rem;
